@@ -101,9 +101,6 @@ public class PostLogger {
     }
 
     public String searchInputText (String searchT) {
-        // String fPath = filePath + ".temp";
-        // Pattern pattern = Pattern.compile(searchT);
-        // System.out.println("Matched Content: ");
         try {
             File file = new File(filePath);
             FileReader fr = new FileReader(file);
